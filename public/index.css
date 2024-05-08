@@ -1,0 +1,96 @@
+* , ::after, ::before{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.regtitle{
+    text-align: center;
+    padding-top: 16px;
+}
+
+.mainbox{
+    padding: 16px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.genderbox{
+    display: flex;
+}
+
+.subgenderbox{
+    margin-right: 16px;
+}
+
+input[type="file"] {
+    width: 100%;
+    margin-top: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.sub1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sub1:hover {
+    background-color: #0056b3;
+}
+
+.gender-group {
+    margin-bottom: 20px;
+}
+
+.hobbies-group {
+    margin-bottom: 20px;
+}
+
+.hobbies-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hobby {
+    margin-right: 10px;
+}
